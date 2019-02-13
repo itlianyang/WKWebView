@@ -15,6 +15,16 @@
 		3E4199592212B45800FE445D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4199582212B45800FE445D /* main.m */; };
 		3E4199632212B45900FE445D /* WKWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4199622212B45900FE445D /* WKWebViewTests.m */; };
 		3E41996E2212B45900FE445D /* WKWebViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E41996D2212B45900FE445D /* WKWebViewUITests.m */; };
+		3E41997E2212B5BF00FE445D /* LYBWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E41997D2212B5BF00FE445D /* LYBWebView.m */; };
+		3E4199812212B68A00FE445D /* LYBWebViewConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4199802212B68A00FE445D /* LYBWebViewConfiguration.m */; };
+		3E4199852212BDCD00FE445D /* LYCWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4199842212BDCD00FE445D /* LYCWebView.m */; };
+		3E4199892212BE9B00FE445D /* LYCJSNativeMessageHandel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4199882212BE9B00FE445D /* LYCJSNativeMessageHandel.m */; };
+		3E41998D2212C1A300FE445D /* LYCWebView+JSNativeJSSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E41998C2212C1A300FE445D /* LYCWebView+JSNativeJSSDK.m */; };
+		3E4199942212C5E100FE445D /* articleStyle.css in Resources */ = {isa = PBXBuildFile; fileRef = 3E4199902212C5E000FE445D /* articleStyle.css */; };
+		3E4199952212C5E100FE445D /* webViewTestDemo.html in Resources */ = {isa = PBXBuildFile; fileRef = 3E4199912212C5E100FE445D /* webViewTestDemo.html */; };
+		3E4199962212C5E100FE445D /* com_JS_App_Bridge.js in Resources */ = {isa = PBXBuildFile; fileRef = 3E4199922212C5E100FE445D /* com_JS_App_Bridge.js */; };
+		3E4199972212C5E100FE445D /* articleDetail.js in Resources */ = {isa = PBXBuildFile; fileRef = 3E4199932212C5E100FE445D /* articleDetail.js */; };
+		3E4199992213E6B500FE445D /* jianjie.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E4199982213E6B400FE445D /* jianjie.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,23 @@
 		3E4199692212B45900FE445D /* WKWebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKWebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E41996D2212B45900FE445D /* WKWebViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKWebViewUITests.m; sourceTree = "<group>"; };
 		3E41996F2212B45900FE445D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E41997C2212B5BF00FE445D /* LYBWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYBWebView.h; sourceTree = "<group>"; };
+		3E41997D2212B5BF00FE445D /* LYBWebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYBWebView.m; sourceTree = "<group>"; };
+		3E41997F2212B68A00FE445D /* LYBWebViewConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYBWebViewConfiguration.h; sourceTree = "<group>"; };
+		3E4199802212B68A00FE445D /* LYBWebViewConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYBWebViewConfiguration.m; sourceTree = "<group>"; };
+		3E4199832212BDCD00FE445D /* LYCWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYCWebView.h; sourceTree = "<group>"; };
+		3E4199842212BDCD00FE445D /* LYCWebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYCWebView.m; sourceTree = "<group>"; };
+		3E4199862212BE4A00FE445D /* LYMacroHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYMacroHeader.h; sourceTree = "<group>"; };
+		3E4199872212BE9B00FE445D /* LYCJSNativeMessageHandel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYCJSNativeMessageHandel.h; sourceTree = "<group>"; };
+		3E4199882212BE9B00FE445D /* LYCJSNativeMessageHandel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYCJSNativeMessageHandel.m; sourceTree = "<group>"; };
+		3E41998B2212C1A300FE445D /* LYCWebView+JSNativeJSSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LYCWebView+JSNativeJSSDK.h"; sourceTree = "<group>"; };
+		3E41998C2212C1A300FE445D /* LYCWebView+JSNativeJSSDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LYCWebView+JSNativeJSSDK.m"; sourceTree = "<group>"; };
+		3E41998E2212C21100FE445D /* LYPJSSDKContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYPJSSDKContext.h; sourceTree = "<group>"; };
+		3E4199902212C5E000FE445D /* articleStyle.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = articleStyle.css; sourceTree = "<group>"; };
+		3E4199912212C5E100FE445D /* webViewTestDemo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = webViewTestDemo.html; sourceTree = "<group>"; };
+		3E4199922212C5E100FE445D /* com_JS_App_Bridge.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = com_JS_App_Bridge.js; sourceTree = "<group>"; };
+		3E4199932212C5E100FE445D /* articleDetail.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = articleDetail.js; sourceTree = "<group>"; };
+		3E4199982213E6B400FE445D /* jianjie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jianjie.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +128,11 @@
 		3E4199482212B45700FE445D /* WKWebView */ = {
 			isa = PBXGroup;
 			children = (
+				3E4199822212BDA300FE445D /* LYCWebView */,
+				3E41997B2212B57E00FE445D /* LYBWebView */,
 				3E4199492212B45700FE445D /* AppDelegate.h */,
 				3E41994A2212B45700FE445D /* AppDelegate.m */,
-				3E41994C2212B45700FE445D /* ViewController.h */,
-				3E41994D2212B45700FE445D /* ViewController.m */,
+				3E41998F2212C5BB00FE445D /* LYWebViewDemo */,
 				3E41994F2212B45700FE445D /* Main.storyboard */,
 				3E4199522212B45800FE445D /* Assets.xcassets */,
 				3E4199542212B45800FE445D /* LaunchScreen.storyboard */,
@@ -130,6 +158,46 @@
 				3E41996F2212B45900FE445D /* Info.plist */,
 			);
 			path = WKWebViewUITests;
+			sourceTree = "<group>";
+		};
+		3E41997B2212B57E00FE445D /* LYBWebView */ = {
+			isa = PBXGroup;
+			children = (
+				3E41997C2212B5BF00FE445D /* LYBWebView.h */,
+				3E41997D2212B5BF00FE445D /* LYBWebView.m */,
+				3E41997F2212B68A00FE445D /* LYBWebViewConfiguration.h */,
+				3E4199802212B68A00FE445D /* LYBWebViewConfiguration.m */,
+			);
+			path = LYBWebView;
+			sourceTree = "<group>";
+		};
+		3E4199822212BDA300FE445D /* LYCWebView */ = {
+			isa = PBXGroup;
+			children = (
+				3E4199862212BE4A00FE445D /* LYMacroHeader.h */,
+				3E4199832212BDCD00FE445D /* LYCWebView.h */,
+				3E4199842212BDCD00FE445D /* LYCWebView.m */,
+				3E4199872212BE9B00FE445D /* LYCJSNativeMessageHandel.h */,
+				3E4199882212BE9B00FE445D /* LYCJSNativeMessageHandel.m */,
+				3E41998B2212C1A300FE445D /* LYCWebView+JSNativeJSSDK.h */,
+				3E41998C2212C1A300FE445D /* LYCWebView+JSNativeJSSDK.m */,
+				3E41998E2212C21100FE445D /* LYPJSSDKContext.h */,
+			);
+			path = LYCWebView;
+			sourceTree = "<group>";
+		};
+		3E41998F2212C5BB00FE445D /* LYWebViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3E4199982213E6B400FE445D /* jianjie.png */,
+				3E4199932212C5E100FE445D /* articleDetail.js */,
+				3E4199902212C5E000FE445D /* articleStyle.css */,
+				3E4199922212C5E100FE445D /* com_JS_App_Bridge.js */,
+				3E4199912212C5E100FE445D /* webViewTestDemo.html */,
+				3E41994C2212B45700FE445D /* ViewController.h */,
+				3E41994D2212B45700FE445D /* ViewController.m */,
+			);
+			path = LYWebViewDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,8 +303,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E4199942212C5E100FE445D /* articleStyle.css in Resources */,
+				3E4199952212C5E100FE445D /* webViewTestDemo.html in Resources */,
+				3E4199962212C5E100FE445D /* com_JS_App_Bridge.js in Resources */,
 				3E4199562212B45800FE445D /* LaunchScreen.storyboard in Resources */,
 				3E4199532212B45800FE445D /* Assets.xcassets in Resources */,
+				3E4199972212C5E100FE445D /* articleDetail.js in Resources */,
+				3E4199992213E6B500FE445D /* jianjie.png in Resources */,
 				3E4199512212B45700FE445D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,8 +336,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E41994E2212B45700FE445D /* ViewController.m in Sources */,
+				3E4199812212B68A00FE445D /* LYBWebViewConfiguration.m in Sources */,
+				3E4199892212BE9B00FE445D /* LYCJSNativeMessageHandel.m in Sources */,
 				3E4199592212B45800FE445D /* main.m in Sources */,
+				3E41998D2212C1A300FE445D /* LYCWebView+JSNativeJSSDK.m in Sources */,
 				3E41994B2212B45700FE445D /* AppDelegate.m in Sources */,
+				3E4199852212BDCD00FE445D /* LYCWebView.m in Sources */,
+				3E41997E2212B5BF00FE445D /* LYBWebView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
